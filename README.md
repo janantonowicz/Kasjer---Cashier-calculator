@@ -15,10 +15,13 @@ If it is required to leave 500 PLN in cashbox Kasjer app will try to get as clos
 
 ## Screenshots:
 List of nominals with quantity created from user input:
-![Simulator Screenshot - iPhone 16 - 2025-04-01 at 23 05 47](https://github.com/user-attachments/assets/be09b329-ff7f-4afa-ab0e-cab2601dadb1)
-
+</br>
+<img src="https://github.com/user-attachments/assets/be09b329-ff7f-4afa-ab0e-cab2601dadb1" alt="drawing" width="200"/>
+</br>
 Summary view showing how much to put to safebox and cashbox with list of nominals with quantity for each of them:
-![simulator_screenshot_BCDCAA1C-5012-464D-9B09-E97E3F2EA710](https://github.com/user-attachments/assets/48b4b9c2-47d8-41f5-8cc1-0c6792d6cb36)
-
+</br>
+<img src="https://github.com/user-attachments/assets/48b4b9c2-47d8-41f5-8cc1-0c6792d6cb36" alt="drawing" width="200"/>
+</br>
 Settings view lets the user set new limit for the casbox (how much money needs to stay):
-![simulator_screenshot_82B533DC-401F-4E06-A90F-C46D2981E225](https://github.com/user-attachments/assets/e7263856-6207-4b58-81ed-59d348bf44a8)
+</br>
+<img src="https://github.com/user-attachments/assets/e7263856-6207-4b58-81ed-59d348bf44a8" alt="drawing" width="200"/>
