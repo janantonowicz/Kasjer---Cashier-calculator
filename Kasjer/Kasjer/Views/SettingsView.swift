@@ -22,7 +22,6 @@ struct SettingsView: View {
                     .font(.system(size: 50))
                     .foregroundColor(.orange)
                     .onTapGesture {
-                        vm.reset()
                         self.presentationMode.wrappedValue.dismiss()
                     }
                 Spacer()
