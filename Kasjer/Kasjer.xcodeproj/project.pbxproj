@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CCEFF7B2D81C0E200B1F13B /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEFF7A2D81C0D600B1F13B /* ListView.swift */; };
+		83E0D028299826BC00D88FF4 /* SafeDataModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E0D027299826BC00D88FF4 /* SafeDataModifier.swift */; };
+		83E33A4C28A42396001C5C51 /* KasjerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E33A4B28A42396001C5C51 /* KasjerApp.swift */; };
+		83E33A5028A42397001C5C51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E33A4F28A42397001C5C51 /* Assets.xcassets */; };
+		83E33A5328A42397001C5C51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E33A5228A42397001C5C51 /* Preview Assets.xcassets */; };
+		83E33A5A28A423AD001C5C51 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E33A5928A423AD001C5C51 /* MainView.swift */; };
+		83E33A5E28A44BF6001C5C51 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E33A5D28A44BF6001C5C51 /* Double.swift */; };
+		83E33A6228A45E39001C5C51 /* RecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E33A6128A45E39001C5C51 /* RecordModel.swift */; };
+		83E33A6428A4FEE5001C5C51 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E33A6328A4FEE5001C5C51 /* ViewModel.swift */; };
+		83E33A6628A57C70001C5C51 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E33A6528A57C70001C5C51 /* SettingsView.swift */; };
+		83E33A6828A62F0D001C5C51 /* SafeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E33A6728A62F0D001C5C51 /* SafeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C6F040D2D9C86F50043A0E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83E33A4028A42396001C5C51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83E33A4728A42396001C5C51;
+			remoteInfo = Kasjer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C6F04092D9C86F50043A0E0 /* Kasjer_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kasjer_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCEFF7A2D81C0D600B1F13B /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		83E0D027299826BC00D88FF4 /* SafeDataModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeDataModifier.swift; sourceTree = "<group>"; };
+		83E33A4828A42396001C5C51 /* Kasjer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kasjer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E33A4B28A42396001C5C51 /* KasjerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KasjerApp.swift; sourceTree = "<group>"; };
+		83E33A4F28A42397001C5C51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83E33A5228A42397001C5C51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83E33A5928A423AD001C5C51 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		83E33A5D28A44BF6001C5C51 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		83E33A6128A45E39001C5C51 /* RecordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordModel.swift; sourceTree = "<group>"; };
+		83E33A6328A4FEE5001C5C51 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		83E33A6528A57C70001C5C51 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		83E33A6728A62F0D001C5C51 /* SafeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5C6F040A2D9C86F50043A0E0 /* Kasjer_Tests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Kasjer_Tests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C6F04062D9C86F50043A0E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E33A4528A42396001C5C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83E0D0222996D44E00D88FF4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				83E33A6128A45E39001C5C51 /* RecordModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		83E0D0232996D46200D88FF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5CCEFF7A2D81C0D600B1F13B /* ListView.swift */,
+				83E33A5928A423AD001C5C51 /* MainView.swift */,
+				83E33A6728A62F0D001C5C51 /* SafeView.swift */,
+				83E33A6528A57C70001C5C51 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		83E0D0242996D46900D88FF4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				83E33A6328A4FEE5001C5C51 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		83E0D0252996D48600D88FF4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				83E33A5D28A44BF6001C5C51 /* Double.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		83E0D026299826A400D88FF4 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				83E0D027299826BC00D88FF4 /* SafeDataModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		83E33A3F28A42396001C5C51 = {
+			isa = PBXGroup;
+			children = (
+				83E33A4A28A42396001C5C51 /* Kasjer */,
+				5C6F040A2D9C86F50043A0E0 /* Kasjer_Tests */,
+				83E33A4928A42396001C5C51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83E33A4928A42396001C5C51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83E33A4828A42396001C5C51 /* Kasjer.app */,
+				5C6F04092D9C86F50043A0E0 /* Kasjer_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83E33A4A28A42396001C5C51 /* Kasjer */ = {
+			isa = PBXGroup;
+			children = (
+				83E33A4B28A42396001C5C51 /* KasjerApp.swift */,
+				83E0D026299826A400D88FF4 /* Modifiers */,
+				83E0D0222996D44E00D88FF4 /* Models */,
+				83E0D0232996D46200D88FF4 /* Views */,
+				83E0D0242996D46900D88FF4 /* ViewModels */,
+				83E0D0252996D48600D88FF4 /* Extensions */,
+				83E33A4F28A42397001C5C51 /* Assets.xcassets */,
+				83E33A5128A42397001C5C51 /* Preview Content */,
+			);
+			path = Kasjer;
+			sourceTree = "<group>";
+		};
+		83E33A5128A42397001C5C51 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				83E33A5228A42397001C5C51 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C6F04082D9C86F50043A0E0 /* Kasjer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6F04112D9C86F50043A0E0 /* Build configuration list for PBXNativeTarget "Kasjer_Tests" */;
+			buildPhases = (
+				5C6F04052D9C86F50043A0E0 /* Sources */,
+				5C6F04062D9C86F50043A0E0 /* Frameworks */,
+				5C6F04072D9C86F50043A0E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C6F040E2D9C86F50043A0E0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5C6F040A2D9C86F50043A0E0 /* Kasjer_Tests */,
+			);
+			name = Kasjer_Tests;
+			packageProductDependencies = (
+			);
+			productName = Kasjer_Tests;
+			productReference = 5C6F04092D9C86F50043A0E0 /* Kasjer_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83E33A4728A42396001C5C51 /* Kasjer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83E33A5628A42397001C5C51 /* Build configuration list for PBXNativeTarget "Kasjer" */;
+			buildPhases = (
+				83E33A4428A42396001C5C51 /* Sources */,
+				83E33A4528A42396001C5C51 /* Frameworks */,
+				83E33A4628A42396001C5C51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kasjer;
+			productName = Kasjer;
+			productReference = 83E33A4828A42396001C5C51 /* Kasjer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83E33A4028A42396001C5C51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					5C6F04082D9C86F50043A0E0 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 83E33A4728A42396001C5C51;
+					};
+					83E33A4728A42396001C5C51 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 83E33A4328A42396001C5C51 /* Build configuration list for PBXProject "Kasjer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83E33A3F28A42396001C5C51;
+			productRefGroup = 83E33A4928A42396001C5C51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83E33A4728A42396001C5C51 /* Kasjer */,
+				5C6F04082D9C86F50043A0E0 /* Kasjer_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C6F04072D9C86F50043A0E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E33A4628A42396001C5C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E33A5328A42397001C5C51 /* Preview Assets.xcassets in Resources */,
+				83E33A5028A42397001C5C51 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C6F04052D9C86F50043A0E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E33A4428A42396001C5C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E33A4C28A42396001C5C51 /* KasjerApp.swift in Sources */,
+				83E0D028299826BC00D88FF4 /* SafeDataModifier.swift in Sources */,
+				83E33A6228A45E39001C5C51 /* RecordModel.swift in Sources */,
+				83E33A5E28A44BF6001C5C51 /* Double.swift in Sources */,
+				83E33A6628A57C70001C5C51 /* SettingsView.swift in Sources */,
+				83E33A6428A4FEE5001C5C51 /* ViewModel.swift in Sources */,
+				83E33A5A28A423AD001C5C51 /* MainView.swift in Sources */,
+				83E33A6828A62F0D001C5C51 /* SafeView.swift in Sources */,
+				5CCEFF7B2D81C0E200B1F13B /* ListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C6F040E2D9C86F50043A0E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83E33A4728A42396001C5C51 /* Kasjer */;
+			targetProxy = 5C6F040D2D9C86F50043A0E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5C6F040F2D9C86F50043A0E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UQJGK438M6;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.janantonowicz.Kasjer-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kasjer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kasjer";
+			};
+			name = Debug;
+		};
+		5C6F04102D9C86F50043A0E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UQJGK438M6;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.janantonowicz.Kasjer-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kasjer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kasjer";
+			};
+			name = Release;
+		};
+		83E33A5428A42397001C5C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83E33A5528A42397001C5C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83E33A5728A42397001C5C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kasjer/Preview Content\"";
+				DEVELOPMENT_TEAM = UQJGK438M6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kalkulator Kasy";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jantonowicz.Kasjer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83E33A5828A42397001C5C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kasjer/Preview Content\"";
+				DEVELOPMENT_TEAM = UQJGK438M6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kalkulator Kasy";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jantonowicz.Kasjer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C6F04112D9C86F50043A0E0 /* Build configuration list for PBXNativeTarget "Kasjer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6F040F2D9C86F50043A0E0 /* Debug */,
+				5C6F04102D9C86F50043A0E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83E33A4328A42396001C5C51 /* Build configuration list for PBXProject "Kasjer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E33A5428A42397001C5C51 /* Debug */,
+				83E33A5528A42397001C5C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83E33A5628A42397001C5C51 /* Build configuration list for PBXNativeTarget "Kasjer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E33A5728A42397001C5C51 /* Debug */,
+				83E33A5828A42397001C5C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83E33A4028A42396001C5C51 /* Project object */;
+}
